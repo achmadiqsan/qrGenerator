@@ -1,0 +1,103 @@
+object frmMain: TfrmMain
+  Left = 677
+  Height = 272
+  Top = 157
+  Width = 665
+  Caption = 'QR Code generator'
+  ClientHeight = 272
+  ClientWidth = 665
+  OnCreate = FormCreate
+  LCLVersion = '1.7'
+  object imgQR: TImage
+    Left = 408
+    Height = 250
+    Top = 14
+    Width = 250
+    Stretch = True
+  end
+  object textText: TMemo
+    Left = 8
+    Height = 146
+    Top = 32
+    Width = 392
+    TabOrder = 0
+  end
+  object btnGenerate: TButton
+    Left = 325
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'Generate'
+    OnClick = btnGenerateClick
+    TabOrder = 1
+  end
+  object btnSave: TButton
+    Left = 240
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'Save'
+    OnClick = btnSaveClick
+    TabOrder = 2
+  end
+  object editWidth: TSpinEdit
+    Left = 8
+    Height = 23
+    Top = 200
+    Width = 50
+    MaxValue = 1000
+    TabOrder = 3
+    Value = 250
+  end
+  object editHeight: TSpinEdit
+    Left = 64
+    Height = 23
+    Top = 200
+    Width = 50
+    MaxValue = 1000
+    TabOrder = 4
+    Value = 250
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 184
+    Width = 32
+    Caption = 'Width'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 64
+    Height = 15
+    Top = 184
+    Width = 36
+    Caption = 'Height'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 15
+    Top = 14
+    Width = 131
+    Caption = 'Enter text to be encoded.'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Cursor = crHandPoint
+    Left = 8
+    Height = 15
+    Top = 249
+    Width = 177
+    Caption = 'http://www.matthewhipkin.co.uk'
+    Font.Color = clRed
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label4Click
+  end
+  object SavePictureDialog1: TSavePictureDialog
+    Filter = 'PNG Image (*.png)|*.png'
+    left = 178
+    top = 147
+  end
+end
