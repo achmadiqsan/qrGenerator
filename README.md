@@ -24,3 +24,5 @@ chl=teks teks yang disandikan URL untuk dimasukkan ke dalam kode batang.
 There are slight variations in the Delphi and Lazarus/FreePascal versions due to Delphi's handling of PNG images, the Delphi demo was created using Delphi 7 which requires an additional package and some extra lines to handle PNG images.
 
 Ada sedikit variasi dalam versi Delphi dan Lazarus/FreePascal karena Delphi menangani gambar PNG, demo Delphi dibuat menggunakan Delphi 7 yang memerlukan paket tambahan dan beberapa baris tambahan untuk menangani gambar PNG.
+
+thanks for the reference : https://www.matthewhipkin.co.uk/codelib/qr-code-generator-in-delphi-and-lazarus/
